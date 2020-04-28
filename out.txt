@@ -1,0 +1,31 @@
+Array<i>(5): 0: 11, 1: 11, 2: 12, 3: 11, 4: 11
+Array<i>(5): 0: 21, 1: 21, 2: 21, 3: 21, 4: 21
+Array<St5tupleIJibEE>(5): 0: (0, 0), 1: (0, 0), 2: (0, 0), 3: (0, 0), 4: (0, 0)
+Array<St5tupleIJibEE>(5): 0: (11, 0), 1: (11, 0), 2: (11, 0), 3: (11, 0), 4: (11, 0)
+Array<St5tupleIJibEE>(5): 0: (22, 1), 1: (22, 1), 2: (22, 1), 3: (22, 1), 4: (22, 1)
+Array<St10unique_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt14default_deleteIS5_EE>(5): 0: <nullptr>, 1: <nullptr>, 2: <hello world>, 3: <nullptr>, 4: <nullptr>
+test with ExampleClass<is_copy_constructible, is_default_constructible>
+ExampleClass<false, false>(int val) called with val=11: Instance ExampleClass<false, false> with val=11
+ExampleClass<false, false>(int val) called with val=11: Instance ExampleClass<false, false> with val=11
+ExampleClass<true, false>(int val) called with val=22: Instance ExampleClass<true, false> with val=22
+ExampleClass<true, false>(int val) called with val=22: Instance ExampleClass<true, false> with val=22
+ExampleClass<true, false>(int val) called with val=22: Instance ExampleClass<true, false> with val=22
+ExampleClass<true, false>(const ExampleClass &copy) called with copy=Instance ExampleClass<true, false> with val=22: Instance ExampleClass<true, false> with val=22
+ExampleClass<true, false>(const ExampleClass &copy) called with copy=Instance ExampleClass<true, false> with val=22: Instance ExampleClass<true, false> with val=22
+ExampleClass<true, false>(const ExampleClass &copy) called with copy=Instance ExampleClass<true, false> with val=22: Instance ExampleClass<true, false> with val=22
+ExampleClass<true, false>(const ExampleClass &copy) called with copy=Instance ExampleClass<true, false> with val=22: Instance ExampleClass<true, false> with val=22
+ExampleClass<true, false>(const ExampleClass &copy) called with copy=Instance ExampleClass<true, false> with val=22: Instance ExampleClass<true, false> with val=22
+ExampleClass<false, true>(int val) called with val=33: Instance ExampleClass<false, true> with val=33
+ExampleClass<false, true>(int val) called with val=33: Instance ExampleClass<false, true> with val=33
+ExampleClass<false, true>() called: Instance ExampleClass<false, true> with val=0
+ExampleClass<false, true>() called: Instance ExampleClass<false, true> with val=0
+ExampleClass<true, true>(int val) called with val=44: Instance ExampleClass<true, true> with val=44
+ExampleClass<true, true>(int val) called with val=44: Instance ExampleClass<true, true> with val=44
+ExampleClass<true, true>() called: Instance ExampleClass<true, true> with val=0
+ExampleClass<true, true>() called: Instance ExampleClass<true, true> with val=0
+ExampleClass<true, true>(int val) called with val=44: Instance ExampleClass<true, true> with val=44
+ExampleClass<true, true>(const ExampleClass &copy) called with copy=Instance ExampleClass<true, true> with val=44: Instance ExampleClass<true, true> with val=44
+ExampleClass<true, true>(const ExampleClass &copy) called with copy=Instance ExampleClass<true, true> with val=44: Instance ExampleClass<true, true> with val=44
+ExampleClass<true, true>(const ExampleClass &copy) called with copy=Instance ExampleClass<true, true> with val=44: Instance ExampleClass<true, true> with val=44
+ExampleClass<true, true>(const ExampleClass &copy) called with copy=Instance ExampleClass<true, true> with val=44: Instance ExampleClass<true, true> with val=44
+ExampleClass<true, true>(const ExampleClass &copy) called with copy=Instance ExampleClass<true, true> with val=44: Instance ExampleClass<true, true> with val=44
